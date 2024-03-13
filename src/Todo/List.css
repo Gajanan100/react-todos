@@ -1,0 +1,48 @@
+
+/* .g_list li
+{
+    width: 270px ;
+    margin: 0 auto;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 40px;
+    font-weight: 1.8;
+    border: 1px solid white;
+    color: black;
+    font-size: 20px;
+    
+
+} */
+
+.g_list{
+    padding: 0;
+    margin-top: 50px;
+}
+
+.g_list li{
+    background-color: white;
+    width: 300px;
+    color: #302b63;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px;
+    list-style: none;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 20px;
+}
+
+.actions
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55px;
+}
+.g_list li.done
+{
+    background-color: red;
+}
