@@ -13,6 +13,7 @@ const TodoFrom = () => {
     // {
     //     setText(e.target.value)
     // }
+    
     const addItem=()=>
     {
       const  newtodoItem={
@@ -48,7 +49,7 @@ const TodoFrom = () => {
     <div className='g_todo'>
         <h1>To do list</h1>
         <div className='g_todo_from row '>
-            <input type="text" placeholder='Add Items to your list ' value={text} onChange={(e)=>setText(e.target.value)} required/>
+            <input  type="text" placeholder='Add Items to your list '  value={text} onChange={(e)=>setText(e.target.value)} required/>
             <span onClick={addItem}>+</span>
         </div>
         {todoList.length>0 &&

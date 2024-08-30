@@ -19,7 +19,6 @@ const List = ({todoList,handleToggle,handleDelete}) => {
                         {
                             listItem.done?<ImCross onClick={()=>handleToggle(listItem.id)}/>:
                             <FaCheckCircle onClick={()=>handleToggle(listItem.id)}/>
-
                         }
                         <MdDeleteForever onClick={()=>handleDelete(listItem.id)}/>
                        </span>
